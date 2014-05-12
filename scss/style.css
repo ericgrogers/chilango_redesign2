@@ -63,16 +63,8 @@ header {
   height: 150px;
   position: relative;
   top: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #380802), color-stop(1, #700b00));
-  background-image: -o-linear-gradient(bottom, #380802 0%, #700b00 100%);
-  background-image: -moz-linear-gradient(bottom, #380802 0%, #700b00 100%);
-  background-image: -webkit-linear-gradient(bottom, #380802 0%, #700b00 100%);
-  background-image: -ms-linear-gradient(bottom, #380802 0%, #700b00 100%);
-  background-image: linear-gradient(to bottom, #380802 0%, #700b00 100%);
-  z-index: 100;
-  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); }
+  background: #700c00;
+  z-index: 100; }
   header nav {
     width: 960px;
     height: 50px;
@@ -83,6 +75,7 @@ header {
       float: left; }
       header nav ul:first-child li {
         list-style: none;
+        width: auto;
         padding-right: 30px;
         float: left; }
         header nav ul:first-child li a {
@@ -94,8 +87,7 @@ header {
       font-family: "bergamot_ornamentsregular";
       font-size: 24px;
       content: "q";
-      margin-right: 10px;
-      padding-bottom: 5px; }
+      margin-right: 10px; }
     header nav h1 {
       font-family: "Lobster Two";
       font-size: 50px;
@@ -112,15 +104,9 @@ header {
     header nav ul:last-child {
       width: 33%;
       float: right; }
-      header nav ul:last-child li {
-        list-style: none;
+      header nav ul:last-child li a {
         float: right;
         padding-left: 30px; }
-        header nav ul:last-child li a {
-          color: white;
-          font-size: 18px;
-          text-decoration: none;
-          display: block; }
 
 h2 {
   position: absolute;
@@ -143,35 +129,16 @@ header:after {
 
 section {
   width: 960px;
-  margin: 50px auto 0 auto;
-  position: relative; }
+  margin: 0 auto; }
   section div:first-child {
+    margin-top: 50px;
     width: 409px;
     height: 355px;
-    background: white;
-    float: left; }
-    section div:first-child div {
+    background: white; }
+    section div:first-child .subhead-landing {
+      background: #306f3a;
       width: 409px;
       height: 68px;
-      background: #306f3a; }
-      section div:first-child div h3 {
-        width: 300px;
-        height: 58px;
-        margin: 0 0 0 54px;
-        font: 36px "bergamot_ornamentsregular";
-        text-align: center;
-        color: white;
-        border-bottom: 1px solid #fff; }
-    section div:first-child p {
-      position: relative;
-      padding: 20px;
-      top: 20px; }
-  section #sliderFrame {
-    position: relative;
-    width: 535px;
-    height: 355px;
-    float: left; }
-    section #sliderFrame p img {
-      position: absolute;
-      top: 325px;
-      left: 100px; }
+      font: 36px "bergamot_ornamentsregular";
+      text-align: center;
+      color: white; }
