@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="description">
+    <meta name="description" content="Home Page of Chilango Restaurant San Francisco, CA. Proudly serving wholesome Mexican foods, and local Latin wines.">
     <meta name="author" content="Eric Rogers">
-    <title>Title Here</title>
+    <title>Chilango Restaurant Home</title>
     <!-- CSS -->
-    <link href="css/js-image-slider.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- Modernizer -->
+    <script src="js/plugins/modernizr-2.6.2.min.js"></script>
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
+
 <body ng-app="main">
-        <div ng-view></div>
+    <div ng-view>
+        <!-- Load all partial pages here. -->
+    </div>
 
 <!-- Plugins -->
 <script src="js/plugins/angular.min.js"></script>
 <script src="js/plugins/angular-route.min.js"></script>
-<script src="js/plugins/js-image-slider.js"></script>
 <!-- Application Scripts -->
 <script src="js/app.js"></script>
 </body>

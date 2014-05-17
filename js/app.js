@@ -1,21 +1,21 @@
 /**
- * Created by ericrogers on 5/10/14.
+ * Created by ericrogers on 3/10/14.
  */
 
 angular.module('main',['ngRoute'])
     .config(function($routeProvider){
-        $routeProvider.when('/landing', {
-            templateUrl : 'partials/landing.html',
-            controller : 'LandCtrl'
-        }).when('/menu', {
-            templateUrl : 'partials/menu.html',
-            controller : 'MenuCtrl'
+        $routeProvider.when('/home', {
+            templateUrl : 'partials/home.html',
+            controller : 'HomeCtrl'
+        }).when('/lunch', {
+            templateUrl : 'partials/lunch.html',
+            controller : 'LunchCtrl'
         }).when('/reservations', {
             templateUrl : 'partials/reservations.html',
             controller : 'ReservationsCtrl'
-        }).when('/gcards', {
-            templateUrl : 'partials/gcards.html',
-            controller : 'GcardsCtrl'
+        }).when('/dinner', {
+            templateUrl : 'partials/dinner.html',
+            controller : 'DinnerCtrl'
         }).when('/about', {
             templateUrl : 'partials/about.html',
             controller : 'AboutCtrl'
@@ -23,15 +23,14 @@ angular.module('main',['ngRoute'])
             templateUrl : 'partials/contact.html',
             controller : 'ContactCtrl'
         }).otherwise({
-            redirectTo : '/landing'
+            redirectTo : '/home'
         })
     })
-    // Landing Controller
-    .controller('LandCtrl', function($scope, $routeParams){
-
+    // Home Controller
+    .controller('HomeCtrl', function($scope, $routeParams){
     })
     // Menu Controller
-    .controller('MenuCtrl', function($scope, $routeParams){
+    .controller('LunchCtrl', function($scope, $routeParams){
 
     })
     // Reservations Controller
@@ -39,7 +38,7 @@ angular.module('main',['ngRoute'])
 
     })
     // Gift Cards Controller
-    .controller('GcardsCtrl', function($scope, $routeParams){
+    .controller('DinnerCtrl', function($scope, $routeParams){
 
     })
     // About Controller
