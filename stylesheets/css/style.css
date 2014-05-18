@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'lobster_tworegular';
+  src: url("../../fonts/lobstertwo-regular-webfont.eot");
+  src: url("../../fonts/lobstertwo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/lobstertwo-regular-webfont.woff") format("woff"), url("../../fonts/lobstertwo-regular-webfont.ttf") format("truetype"), url("../../fonts/lobstertwo-regular-webfont.svg#lobster_tworegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url("../../fonts/caviar_dreams_bold-webfont.eot");
+  src: url("../../fonts/caviar_dreams_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/caviar_dreams_bold-webfont.woff") format("woff"), url("../../fonts/caviar_dreams_bold-webfont.ttf") format("truetype"), url("../../fonts/caviar_dreams_bold-webfont.svg#caviar_dreamsbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'caviardreams';
+  src: url("../../fonts/caviardreams-webfont.eot");
+  src: url("../../fonts/caviardreams-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/caviardreams-webfont.woff") format("woff"), url("../../fonts/caviardreams-webfont.ttf") format("truetype"), url("../../fonts/caviardreams-webfont.svg#caviardreams") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*==================================================
+  Site Wide Styles
+==================================================*/
+body {
+  font: 1em caviar_dreamsbold;
+  background: url("../../images/rockywall.png"); }
+
+header {
+  width: 100%;
+  height: 170px;
+  background: url("../../images/header_background.png") repeat-x; }
+  header nav {
+    width: 960px;
+    margin: 0 auto; }
+    header nav ul:first-child {
+      width: 380px;
+      float: left; }
+      header nav ul:first-child li {
+        float: left;
+        width: 96px;
+        margin: 54px 65px 0 0;
+        list-style: none;
+        display: block; }
+        header nav ul:first-child li a {
+          height: 20px;
+          line-height: 1.75;
+          color: rgba(255, 255, 255, 0.6);
+          text-decoration: none;
+          display: block;
+          border-bottom: 1px solid rgba(255, 255, 255, 0);
+          border-top: 1px solid rgba(255, 255, 255, 0);
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+      header nav ul:first-child a:hover {
+        height: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid white; }
+      header nav ul:first-child li:first-child {
+        width: 40px;
+        margin-right: 69px;
+        float: left; }
+      header nav ul:first-child li:last-child {
+        width: 43px;
+        float: left; }
+    header nav h1 {
+      width: 200px;
+      font: bold 2.875em lobster_tworegular;
+      color: #fff;
+      text-align: center;
+      margin-top: 36px;
+      float: left;
+      display: block;
+      text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); }
+    header nav ul:last-child {
+      width: 380px;
+      float: right; }
+      header nav ul:last-child li {
+        float: right;
+        margin: 54px 0 0 73px;
+        list-style: none;
+        display: block; }
+        header nav ul:last-child li a {
+          height: 20px;
+          line-height: 1.75;
+          color: rgba(255, 255, 255, 0.6);
+          text-decoration: none;
+          display: block;
+          border-bottom: 1px solid rgba(255, 255, 255, 0);
+          border-top: 1px solid rgba(255, 255, 255, 0);
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+      header nav ul:last-child a:hover {
+        height: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid white; }
+      header nav ul:last-child li:first-child {
+        float: right; }
+      header nav ul:last-child li:last-child {
+        float: right; }
+  header h2 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 2;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0, 3px, 3px, rgba(0, 0, 0, 0.3); }
+  header #activeH {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    height: 30px; }
+
+/*===================================
+  Home Page
+===================================*/
+section {
+  margin: 30px auto 0 auto;
+  width: 960px; }
+  section:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section div:first-child {
+    width: 301px;
+    height: 438px;
+    background: #fff;
+    float: left; }
+    section div:first-child p {
+      color: #333333;
+      padding: 10px 20px 10px 20px;
+      font-size: 1em; }
+    section div:first-child p:first-child {
+      padding: 20px 20px 0 20px; }
+    section div:first-child p:nth-of-type(2) {
+      font-family: caviardreams;
+      color: rgba(51, 51, 51, 0.8); }
+    section div:first-child p:last-child {
+      padding-top: 10px;
+      text-align: center; }
+  section div:last-child {
+    float: left; }
+    section div:last-child p:last-child {
+      position: relative;
+      top: -34px;
+      left: 24.810318664643%; }
+
+footer {
+  background: url("../../images/footer-bg.png") repeat-x;
+  width: 100%; }
+  footer section {
+    width: 960px; }
+  footer nav {
+    width: 365px; }
+    footer nav ul {
+      width: 365px; }
+      footer nav ul li {
+        margin-top: 6px;
+        padding: 0 5px;
+        list-style: none;
+        height: 20px;
+        width: auto;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        float: left; }
+        footer nav ul li a {
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 14px; }
+      footer nav ul li:last-child {
+        border: none; }
+    footer nav #activeF {
+      color: #fff;
+      border-bottom: 1px solid #fff; }
+  footer p {
+    font: 0.875em caviardreams;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    margin: 8px 0 0 70px; }
+    footer p img {
+      margin-top: 3px; }
+  footer p:nth-of-type(2) {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 3px 0 0 0; }
+  footer p:last-child {
+    float: right;
+    margin: 3px 10px 0 0; }

@@ -1,0 +1,279 @@
+@import "../bourbon/bourbon.scss";
+
+//---------- fonts -----------
+
+@font-face {
+  font-family: 'lobster_tworegular';
+  src: url('../../fonts/lobstertwo-regular-webfont.eot');
+  src: url('../../fonts/lobstertwo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/lobstertwo-regular-webfont.woff') format('woff'),
+  url('../../fonts/lobstertwo-regular-webfont.ttf') format('truetype'),
+  url('../../fonts/lobstertwo-regular-webfont.svg#lobster_tworegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'caviar_dreamsbold';
+  src: url('../../fonts/caviar_dreams_bold-webfont.eot');
+  src: url('../../fonts/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/caviar_dreams_bold-webfont.woff') format('woff'),
+  url('../../fonts/caviar_dreams_bold-webfont.ttf') format('truetype'),
+  url('../../fonts/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'caviardreams';
+  src: url('../../fonts/caviardreams-webfont.eot');
+  src: url('../../fonts/caviardreams-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/caviardreams-webfont.woff') format('woff'),
+  url('../../fonts/caviardreams-webfont.ttf') format('truetype'),
+  url('../../fonts/caviardreams-webfont.svg#caviardreams') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*==================================================
+  Site Wide Styles
+==================================================*/
+
+body {
+  font: 1em caviar_dreamsbold;
+  background: url("../../images/rockywall.png");
+}
+
+header {
+  width: 100%;
+  height: 170px;
+  background: url("../../images/header_background.png") repeat-x;
+
+  nav {
+    width: 960px;
+    margin: 0 auto;
+
+    ul:first-child {
+      width: 380px;
+      float: left;
+
+      li {
+
+        float: left;
+        width: 96px;
+        margin: 54px 65px 0 0;
+        list-style: none;
+        display: block;
+
+        a {
+          height: 20px;
+          line-height: 1.75;
+          color: rgba(255,255,255,0.6);
+          text-decoration: none;
+          display: block;
+          border-bottom: 1px solid rgba(255,255,255,0);
+          border-top: 1px solid rgba(255,255,255,0);
+          @include transition (all .3s);
+        }
+      }
+
+      a:hover {
+        height: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid rgba(255,255,255,1);
+      }
+
+      li:first-child {
+        width: 40px;
+        margin-right: 69px;
+        float: left;
+      }
+
+      li:last-child {
+        width: 43px;
+        float: left;
+      }
+    }
+
+    h1 {
+      width: 200px;
+      font: bold 2.875em lobster_tworegular;
+      color: #fff;
+      text-align: center;
+      margin-top: 36px;
+      float: left;
+      display: block;
+      text-shadow: 0 3px 3px rgba(0,0,0,.3);
+    }
+
+    ul:last-child {
+      width: 380px;
+      float: right;
+
+      li {
+
+        float: right;
+        margin: 54px 0 0 73px;
+        list-style: none;
+        display: block;
+
+        a {
+          height: 20px;
+          line-height: 1.75;
+          color: rgba(255,255,255,0.6);
+          text-decoration: none;
+          display: block;
+          border-bottom: 1px solid rgba(255,255,255,0);
+          border-top: 1px solid rgba(255,255,255,0);
+          @include transition (all .3s);
+        }
+      }
+
+      a:hover {
+        height: 30px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid rgba(255,255,255,1);
+      }
+
+      li:first-child {
+        float: right;
+      }
+
+      li:last-child {
+        float: right;
+      }
+    }
+  }
+
+  h2 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 2;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0, 3px, 3px,rgba(0,0,0,0.3);
+  }
+  #activeH {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+  }
+}
+
+/*===================================
+  Home Page
+===================================*/
+
+section {
+  margin: 30px auto 0 auto;
+  width: 960px;
+  @include clearfix;
+
+  div:first-child {
+    width: 301px;
+    height: 438px;
+    background: #fff;
+    float: left;
+
+    p {
+      color: rgba(51, 51, 51, 1);
+      padding: 10px 20px 10px 20px;
+      font-size: 1em;
+    }
+
+    p:first-child {
+      padding: 20px 20px 0 20px;
+    }
+
+    p:nth-of-type(2) {
+      font-family: caviardreams;
+      color: rgba(51, 51, 51, .8);
+    }
+
+    p:last-child {
+      padding-top: 10px;
+      text-align: center;
+    }
+  }
+
+  div:last-child {
+    float: left;
+
+    p:last-child {
+      position: relative;
+      top: -34px;
+      left: 24.810318664643%;
+    }
+  }
+}
+
+footer {
+  background: url("../../images/footer-bg.png") repeat-x;
+  width: 100%;
+
+  section{
+    width: 960px;
+  }
+
+  nav {
+    width: 365px;
+
+    ul {
+      width: 365px;
+
+      li {
+        margin-top: 6px;
+        padding: 0 5px;
+        list-style: none;
+        height: 20px;
+        width: auto;
+        border-right: 1px solid rgba(255,255,255,0.2);
+        float: left;
+
+        a {
+          text-decoration: none;
+          color: rgba(255,255,255,0.6);
+          font-size: 14px;
+        }
+      }
+
+      li:last-child {
+        border: none;
+      }
+    }
+
+    #activeF {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  p {
+    font: 0.875em caviardreams;
+    color: rgba(255,255,255,0.5);
+    float: left;
+    margin: 8px 0 0 70px;
+
+    img {
+      margin-top: 3px;
+    }
+  }
+
+  p:nth-of-type(2) {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 3px 0 0 0;
+  }
+
+  p:last-child {
+    float: right;
+    margin: 3px 10px 0 0;
+  }
+}
+
+

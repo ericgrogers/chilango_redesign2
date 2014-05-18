@@ -1,5 +1,5 @@
-/**
- * Created by ericrogers on 3/10/14.
+/* Chilango Restaurant
+   Author: Eric Rogers
  */
 
 angular.module('main',['ngRoute'])
