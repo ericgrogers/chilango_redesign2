@@ -9,7 +9,8 @@ angular.module('main',['ngRoute'])
             controller : 'HomeCtrl'
         }).when('/lunch', {
             templateUrl : 'partials/lunch.html',
-            controller : 'LunchCtrl'
+            controller : 'LunchCtrl',
+            reloadOnSearch: false
         }).when('/reservations', {
             templateUrl : 'partials/reservations.html',
             controller : 'ReservationsCtrl'
