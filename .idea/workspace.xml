@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf20b81-3a31-46bf-8cc6-167e0e4923b7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/dinner.html" afterPath="$PROJECT_DIR$/dinner.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/lunch.html" afterPath="$PROJECT_DIR$/lunch.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/reservations.html" afterPath="$PROJECT_DIR$/reservations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/9e0318ba04c0c1e7a0c3cc15674a08b9d2be8479/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/9e0318ba04c0c1e7a0c3cc15674a08b9d2be8479/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lunch.html" afterPath="$PROJECT_DIR$/lunch.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/css/style.css" afterPath="$PROJECT_DIR$/stylesheets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/sass/style.scss" afterPath="$PROJECT_DIR$/stylesheets/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -49,8 +42,8 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.113175675" vertical-offset="5873" max-vertical-offset="7425">
-              <caret line="396" column="22" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.9493243" vertical-offset="9218" max-vertical-offset="9945">
+              <caret line="652" column="14" selection-start-line="652" selection-start-column="14" selection-end-line="652" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -79,8 +72,8 @@
       <file leaf-file-name="lunch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lunch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7083335" vertical-offset="502" max-vertical-offset="1635">
-              <caret line="41" column="122" selection-start-line="41" selection-start-column="122" selection-end-line="41" selection-end-column="122" />
+            <state vertical-scroll-proportion="-23.416666" vertical-offset="638" max-vertical-offset="1635">
+              <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -651,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lunch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7083335" vertical-offset="502" max-vertical-offset="1635">
-          <caret line="41" column="122" selection-start-line="41" selection-start-column="122" selection-end-line="41" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="570">
@@ -667,10 +652,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lunch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.416666" vertical-offset="638" max-vertical-offset="1635">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.113175675" vertical-offset="5873" max-vertical-offset="7425">
-          <caret line="396" column="22" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.9493243" vertical-offset="9218" max-vertical-offset="9945">
+          <caret line="652" column="14" selection-start-line="652" selection-start-column="14" selection-end-line="652" selection-end-column="14" />
           <folding />
         </state>
       </provider>
