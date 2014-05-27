@@ -5,40 +5,46 @@
 angular.module('main',['ngRoute'])
     .config(function($routeProvider){
         $routeProvider.when('/home', {
-            templateUrl : 'partials/home.html',
-            controller : 'HomeCtrl'
+            templateUrl : 'home.html',
+            controller : 'HomeCtrl',
+            title: 'Home'
         }).when('/lunch', {
-            templateUrl : 'partials/lunch.html',
+            templateUrl : 'lunch.html',
             controller : 'LunchCtrl',
-            reloadOnSearch: false
+            reloadOnSearch: false,
+            title: 'Lunch Menu'
         }).when('/reservations', {
-            templateUrl : 'partials/reservations.html',
-            controller : 'ReservationsCtrl'
+            templateUrl : 'reservations.html',
+            controller : 'ReservationsCtrl',
+            title: 'Reservations'
         }).when('/dinner', {
-            templateUrl : 'partials/dinner.html',
-            controller : 'DinnerCtrl'
+            templateUrl : 'dinner.html',
+            controller : 'DinnerCtrl',
+            title: 'Dinner Menu'
         }).when('/about', {
-            templateUrl : 'partials/about.html',
-            controller : 'AboutCtrl'
+            templateUrl : 'about.html',
+            controller : 'AboutCtrl',
+            title: 'About'
         }).when('/contact', {
-            templateUrl : 'partials/contact.html',
-            controller : 'ContactCtrl'
+            templateUrl : 'contact.html',
+            controller : 'ContactCtrl',
+            title: 'Contact'
         }).otherwise({
             redirectTo : '/home'
         })
     })
     // Home Controller
-    .controller('HomeCtrl', function($scope, $routeParams){
+    .controller('HomeCtrl', function($document, $scope, $routeParams){
+        $document[0].title = 'Home';
     })
-    // Menu Controller
-    .controller('LunchCtrl', function($scope, $routeParams){
-
+    // Lunch Menu Controller
+    .controller('LunchCtrl', function($document,$scope, $routeParams){
+        $document[0].title = 'Lunch Menu';
     })
     // Reservations Controller
     .controller('ReservationsCtrl', function($scope, $routeParams){
-
     })
-    // Gift Cards Controller
+    // Dinner Menu Controller
     .controller('DinnerCtrl', function($scope, $routeParams){
 
     })
@@ -50,3 +56,4 @@ angular.module('main',['ngRoute'])
     .controller('ContactCtrl', function($scope, $routeParams){
 
     });
+
