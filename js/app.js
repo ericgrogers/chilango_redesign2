@@ -38,8 +38,9 @@ angular.module('main',['ngRoute'])
         $document[0].title = 'Home';
     })
     // Lunch Menu Controller
-    .controller('LunchCtrl', function($document,$scope, $routeParams){
+    .controller('LunchCtrl', function($document,$scope, $routeParams, $window){
         $document[0].title = 'Lunch Menu';
+
     })
     // Reservations Controller
     .controller('ReservationsCtrl', function($scope, $routeParams){

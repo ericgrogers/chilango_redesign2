@@ -19,7 +19,44 @@
     <h2>Wholesome Mexican Food</h2>
 </header>
 
-        <h3>Reservations Page</h3>
+        <article id="reserve">
+        <div class="reservations_left_container">
+            <h3><img src="images/reserve_banner.png" alt="Request a Reservation" /></h3>
+            <p><img src="images/dining_room.jpg"></p>
+            <p><img src="images/btm_orn.gif" alt="" /> </p>
+        </div><!-- end container -->
+
+        <div class="reservations_right_container">
+            <h3>Contact Information</h3>
+            <form>
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" placeholder="First Name">
+                <p class="error">Error Message.</p>
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName" placeholder="Last Name">
+                <p class="error">Error Message.</p>
+                <label for="tele">Telephone</label>
+                <input type="tel" name="tele" id="tele" placeholder="555">
+                <input type="tel" name="tele2" id="tele2" placeholder="555">
+                <input type="tel" name="tele3" id="tele3" placeholder="5555">
+                <p class="error">Error Message.</p>
+            <h3>Date &amp; Time / Party Size</h3>
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" placeholder="10/24/2014">
+                <p class="error">Error Message.</p>
+                <label for="time">Time:</label>
+                <input type="time" name="time" id="time" placeholder="6:00PM">
+                <p class="error">Error Message.</p>
+                <label for="psize">Party Size:</label>
+                <input type="number" name="psize" id="psize" placeholder="1">
+                <p class="error">Error Message.</p>
+                <button type="submit" class="submit">Submit</button>
+                <button type="reset" class="cancel">Cancel</button>
+            </form>
+        </div><!-- end container -->
+            <p id="pcurl"><img src="images/pageCurl.png" alt="" /></p>
+        </article>
+
 <footer>
     <section>
         <nav>

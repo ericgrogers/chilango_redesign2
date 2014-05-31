@@ -309,17 +309,20 @@ section {
 .menuBG {
   background: #fff;
   width: 960px;
-  margin: 30px auto 0 auto;
+  height: 2700px;
+  margin: 30px auto 20px auto;
   padding: 30px;
   border: 1px inset rgba(0, 0, 0, 0.1);
   position: relative;
 
+
   nav {
     width: 776px;
     height: 45px;
-    margin: 0 auto;
     background: #700c00;
     position: relative;
+    margin: 0 auto;
+    z-index: 1000000000;
 
     ul {
       width: 676px;
@@ -461,7 +464,7 @@ section {
         width: grid-width(1);
         margin: 0;
         font: 1em caviardreams;
-        color: #4d4d4d;
+        color: #333;
       }
 
       dd:nth-of-type(1) {
@@ -541,7 +544,7 @@ section {
 
     dl {
       position: relative;
-      height: 600px;
+      height: 500px;
 
       dt {
         width: grid-width(1);
@@ -597,7 +600,7 @@ section {
         width: grid-width(1);
         margin: 0;
         font: 1em caviardreams;
-        color: #4d4d4d;
+        color: #333;
       }
 
       dd:nth-of-type(1) {
@@ -654,4 +657,371 @@ section {
       }
     }
   }
+
+  //=============== Huevos ==================
+
+  article#huevos {
+    width: 776px;
+    margin: 0 92px;
+
+    h4 {
+      font: bold 36px lobster_tworegular;
+      color: $green;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    dl {
+      position: relative;
+      height: 500px;
+
+      dt {
+        width: grid-width(1);
+        font: 18px caviar_dreamsbold;
+        color: $red;
+        height: 30px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.3);
+      }
+
+      dt:nth-of-type(2) {
+        position: absolute;
+        left: $centered;
+        top: 0;
+      }
+
+      dt:nth-of-type(3) {
+        position: absolute;
+        left: 0;
+        top: 152px;
+      }
+
+      dt:nth-of-type(4) {
+        position: absolute;
+        left: $centered;
+        top: 152px;
+      }
+
+      dt:nth-of-type(5) {
+        position: absolute;
+        left: 0;
+        top: 304px;
+        height: 55px;
+      }
+
+      dd {
+        width: grid-width(1);
+        margin: 0;
+        font: 1em caviardreams;
+        color: #333;
+      }
+
+      dd:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        top: 40px;
+      }
+      dd:nth-of-type(2) {
+        position: absolute;
+        left: $centered;
+        top: 40px;
+      }
+
+      .huevos_img {
+        width: 242px;
+        height: 242px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20px;
+      }
+      .huevos_img img {
+        width: 100%;
+        height: 100%;
+      }
+
+      dd:nth-of-type(4) {
+        position: absolute;
+        left: 0;
+        top: 195px;
+      }
+
+      dd:nth-of-type(5) {
+        position: absolute;
+        left: $centered;
+        top: 195px;
+      }
+
+      dd:nth-of-type(6) {
+        position: absolute;
+        left: 0;
+        top: 372px;
+      }
+    }
+  }
+
+  //============== Specialties ================
+
+  article#specialties {
+    width: 776px;
+    margin: 0 92px;
+
+    h4 {
+      font: bold 36px lobster_tworegular;
+      color: $green;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    dl {
+      position: relative;
+      height: 500px;
+
+      dt {
+        width: grid-width(1);
+        font: 18px caviar_dreamsbold;
+        color: $red;
+        height: 30px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.3);
+      }
+
+      dt:first-child {
+        position: absolute;
+        left: $centered;
+        top: 0;
+      }
+
+      dt:nth-of-type(2) {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      dt:nth-of-type(3) {
+        position: absolute;
+        left: $centered;
+        top: 152px;
+      }
+
+      dt:nth-of-type(4) {
+        position: absolute;
+        right: 0;
+        top: 152px;
+      }
+
+      dt:nth-of-type(5) {
+        position: absolute;
+        left: 0;
+        top: 304px;
+      }
+
+      dt:nth-of-type(6) {
+        position: absolute;
+        left: $centered;
+        top: 304px;
+      }
+
+      dt:nth-of-type(7) {
+        position: absolute;
+        right: 0;
+        top: 304px;
+      }
+
+      dt:nth-of-type(8) {
+        position: absolute;
+        left: 0;
+        top: 456px;
+      }
+
+      dd {
+        width: grid-width(1);
+        margin: 0;
+        font: 1em caviardreams;
+        color: #333;
+      }
+
+      dd:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        top: 30px;
+      }
+      dd:nth-of-type(2) {
+        position: absolute;
+        left: $centered;
+        top: 40px;
+      }
+
+      dd:nth-of-type(3) {
+        position: absolute;
+        right: 0;
+        top: 40px;
+      }
+
+      dd:nth-of-type(4) {
+        position: absolute;
+        left: $centered;
+        top: 195px;
+      }
+
+      dd:nth-of-type(5) {
+        position: absolute;
+        right: 0;
+        top: 195px;
+      }
+
+      dd:nth-of-type(6) {
+        position: absolute;
+        left: 0;
+        top: 347px;
+      }
+
+      dd:nth-of-type(7) {
+        position: absolute;
+        left: $centered;
+        top: 347px;
+      }
+
+      dd:nth-of-type(8) {
+        position: absolute;
+        right: 0;
+        top: 347px;
+      }
+
+      dd:nth-of-type(9) {
+        position: absolute;
+        left: 0;
+        top:499px;
+      }
+    }
+  }
+
+  .bot_orn {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    background: #ffffff;
+
+  }
+  .pCurl {
+    position: relative;
+    bottom: -50px;
+    left: -15px;
+    z-index: -1000;
+  }
+}
+
+/*=========================================
+      Reservations Page
+=========================================*/
+
+article#reserve {
+  width: 960px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fff;
+  box-sizing: border-box;
+  position: relative;
+
+  .reservations_left_container {
+    width: 440px;
+    float: left;
+
+    h3 {
+      position: absolute;
+      left: -18px;
+    }
+
+    p {
+      width: 236px;
+      margin-top: 60px;
+      text-align: center;
+    }
+  }
+
+  .reservations_right_container {
+    width: 440px;
+    float: right;
+
+    h3 {
+      width: 100%;
+      font-size: 24px;
+      color: $green;
+      margin-bottom: 30px;
+      float: left;
+    }
+
+    label {
+      color: #333;
+      width: 100%;
+      float: left;
+    }
+
+    input {
+      border: 3px solid #ADACAD;
+      width: 300px;
+      height: 20px;
+      float: left;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+    }
+
+    input:focus {
+      border: 3px solid #006f3b;
+      -webkit-box-shadow: 0 0 1px #006f3b;
+      -moz-box-shadow: 0 0 1px #006f3b;
+      box-shadow: 0 0 1px #006f3b;;
+    }
+
+    #tele, #tele2 {
+      width: 70px;
+      margin-right: 5px;
+    }
+
+    #tele3 {
+      width: 138px;
+    }
+
+    .error {
+      width: 306px;
+      color: #ff0000;
+      text-indent: 5px;
+      opacity: 0;
+      float: left;
+    }
+
+    .error:nth-of-type(3) {
+      margin-bottom: 40px;
+    }
+
+    button {
+      width: 150px;
+      height: 30px;
+      background: #710D00;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .submit {
+      background: #006f3b;
+    }
+  }
+}
+#pcurl {
+  position: relative;
+  bottom: -90px;
+  left: -50px;
+  margin: 0 auto;
+  z-index: -1000;
+}
+
+article#reserve:after {
+  content: '';
+  display: block;
+  clear: both;
 }

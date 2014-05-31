@@ -199,16 +199,18 @@ section {
 .menuBG {
   background: #fff;
   width: 960px;
-  margin: 30px auto 0 auto;
+  height: 2700px;
+  margin: 30px auto 20px auto;
   padding: 30px;
   border: 1px inset rgba(0, 0, 0, 0.1);
   position: relative; }
   .menuBG nav {
     width: 776px;
     height: 45px;
-    margin: 0 auto;
     background: #700c00;
-    position: relative; }
+    position: relative;
+    margin: 0 auto;
+    z-index: 1000000000; }
     .menuBG nav ul {
       width: 676px;
       height: 45px;
@@ -303,7 +305,7 @@ section {
         width: 242px;
         margin: 0;
         font: 1em caviardreams;
-        color: #4d4d4d; }
+        color: #333; }
       .menuBG article#appetizers dl dd:nth-of-type(1) {
         position: absolute;
         left: 0;
@@ -356,7 +358,7 @@ section {
       margin-bottom: 30px; }
     .menuBG article#tacos dl {
       position: relative;
-      height: 600px; }
+      height: 500px; }
       .menuBG article#tacos dl dt {
         width: 242px;
         font: 18px caviar_dreamsbold;
@@ -395,7 +397,7 @@ section {
         width: 242px;
         margin: 0;
         font: 1em caviardreams;
-        color: #4d4d4d; }
+        color: #333; }
       .menuBG article#tacos dl dd:nth-of-type(1) {
         position: absolute;
         left: 0;
@@ -432,3 +434,258 @@ section {
         position: absolute;
         left: 0;
         top: 499px; }
+  .menuBG article#huevos {
+    width: 776px;
+    margin: 0 92px; }
+    .menuBG article#huevos h4 {
+      font: bold 36px lobster_tworegular;
+      color: #306f3a;
+      text-align: center;
+      margin-bottom: 30px; }
+    .menuBG article#huevos dl {
+      position: relative;
+      height: 500px; }
+      .menuBG article#huevos dl dt {
+        width: 242px;
+        font: 18px caviar_dreamsbold;
+        color: #700c00;
+        height: 30px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.3); }
+      .menuBG article#huevos dl dt:nth-of-type(2) {
+        position: absolute;
+        left: 267px;
+        top: 0; }
+      .menuBG article#huevos dl dt:nth-of-type(3) {
+        position: absolute;
+        left: 0;
+        top: 152px; }
+      .menuBG article#huevos dl dt:nth-of-type(4) {
+        position: absolute;
+        left: 267px;
+        top: 152px; }
+      .menuBG article#huevos dl dt:nth-of-type(5) {
+        position: absolute;
+        left: 0;
+        top: 304px;
+        height: 55px; }
+      .menuBG article#huevos dl dd {
+        width: 242px;
+        margin: 0;
+        font: 1em caviardreams;
+        color: #333; }
+      .menuBG article#huevos dl dd:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        top: 40px; }
+      .menuBG article#huevos dl dd:nth-of-type(2) {
+        position: absolute;
+        left: 267px;
+        top: 40px; }
+      .menuBG article#huevos dl .huevos_img {
+        width: 242px;
+        height: 242px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 20px; }
+      .menuBG article#huevos dl .huevos_img img {
+        width: 100%;
+        height: 100%; }
+      .menuBG article#huevos dl dd:nth-of-type(4) {
+        position: absolute;
+        left: 0;
+        top: 195px; }
+      .menuBG article#huevos dl dd:nth-of-type(5) {
+        position: absolute;
+        left: 267px;
+        top: 195px; }
+      .menuBG article#huevos dl dd:nth-of-type(6) {
+        position: absolute;
+        left: 0;
+        top: 372px; }
+  .menuBG article#specialties {
+    width: 776px;
+    margin: 0 92px; }
+    .menuBG article#specialties h4 {
+      font: bold 36px lobster_tworegular;
+      color: #306f3a;
+      text-align: center;
+      margin-bottom: 30px; }
+    .menuBG article#specialties dl {
+      position: relative;
+      height: 500px; }
+      .menuBG article#specialties dl dt {
+        width: 242px;
+        font: 18px caviar_dreamsbold;
+        color: #700c00;
+        height: 30px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.3); }
+      .menuBG article#specialties dl dt:first-child {
+        position: absolute;
+        left: 267px;
+        top: 0; }
+      .menuBG article#specialties dl dt:nth-of-type(2) {
+        position: absolute;
+        right: 0;
+        top: 0; }
+      .menuBG article#specialties dl dt:nth-of-type(3) {
+        position: absolute;
+        left: 267px;
+        top: 152px; }
+      .menuBG article#specialties dl dt:nth-of-type(4) {
+        position: absolute;
+        right: 0;
+        top: 152px; }
+      .menuBG article#specialties dl dt:nth-of-type(5) {
+        position: absolute;
+        left: 0;
+        top: 304px; }
+      .menuBG article#specialties dl dt:nth-of-type(6) {
+        position: absolute;
+        left: 267px;
+        top: 304px; }
+      .menuBG article#specialties dl dt:nth-of-type(7) {
+        position: absolute;
+        right: 0;
+        top: 304px; }
+      .menuBG article#specialties dl dt:nth-of-type(8) {
+        position: absolute;
+        left: 0;
+        top: 456px; }
+      .menuBG article#specialties dl dd {
+        width: 242px;
+        margin: 0;
+        font: 1em caviardreams;
+        color: #333; }
+      .menuBG article#specialties dl dd:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        top: 30px; }
+      .menuBG article#specialties dl dd:nth-of-type(2) {
+        position: absolute;
+        left: 267px;
+        top: 40px; }
+      .menuBG article#specialties dl dd:nth-of-type(3) {
+        position: absolute;
+        right: 0;
+        top: 40px; }
+      .menuBG article#specialties dl dd:nth-of-type(4) {
+        position: absolute;
+        left: 267px;
+        top: 195px; }
+      .menuBG article#specialties dl dd:nth-of-type(5) {
+        position: absolute;
+        right: 0;
+        top: 195px; }
+      .menuBG article#specialties dl dd:nth-of-type(6) {
+        position: absolute;
+        left: 0;
+        top: 347px; }
+      .menuBG article#specialties dl dd:nth-of-type(7) {
+        position: absolute;
+        left: 267px;
+        top: 347px; }
+      .menuBG article#specialties dl dd:nth-of-type(8) {
+        position: absolute;
+        right: 0;
+        top: 347px; }
+      .menuBG article#specialties dl dd:nth-of-type(9) {
+        position: absolute;
+        left: 0;
+        top: 499px; }
+  .menuBG .bot_orn {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    background: #ffffff; }
+  .menuBG .pCurl {
+    position: relative;
+    bottom: -50px;
+    left: -15px;
+    z-index: -1000; }
+
+/*=========================================
+      Reservations Page
+=========================================*/
+article#reserve {
+  width: 960px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fff;
+  box-sizing: border-box;
+  position: relative; }
+  article#reserve .reservations_left_container {
+    width: 440px;
+    float: left; }
+    article#reserve .reservations_left_container h3 {
+      position: absolute;
+      left: -18px; }
+    article#reserve .reservations_left_container p {
+      width: 236px;
+      margin-top: 60px;
+      text-align: center; }
+  article#reserve .reservations_right_container {
+    width: 440px;
+    float: right; }
+    article#reserve .reservations_right_container h3 {
+      width: 100%;
+      font-size: 24px;
+      color: #306f3a;
+      margin-bottom: 30px;
+      float: left; }
+    article#reserve .reservations_right_container label {
+      color: #333;
+      width: 100%;
+      float: left; }
+    article#reserve .reservations_right_container input {
+      border: 3px solid #ADACAD;
+      width: 300px;
+      height: 20px;
+      float: left;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+    article#reserve .reservations_right_container input:focus {
+      border: 3px solid #006f3b;
+      -webkit-box-shadow: 0 0 1px #006f3b;
+      -moz-box-shadow: 0 0 1px #006f3b;
+      box-shadow: 0 0 1px #006f3b; }
+    article#reserve .reservations_right_container #tele, article#reserve .reservations_right_container #tele2 {
+      width: 70px;
+      margin-right: 5px; }
+    article#reserve .reservations_right_container #tele3 {
+      width: 138px; }
+    article#reserve .reservations_right_container .error {
+      width: 306px;
+      color: #ff0000;
+      text-indent: 5px;
+      opacity: 0;
+      float: left; }
+    article#reserve .reservations_right_container .error:nth-of-type(3) {
+      margin-bottom: 40px; }
+    article#reserve .reservations_right_container button {
+      width: 150px;
+      height: 30px;
+      background: #710D00;
+      color: #fff;
+      font-size: 18px; }
+    article#reserve .reservations_right_container .submit {
+      background: #006f3b; }
+
+#pcurl {
+  position: relative;
+  bottom: -90px;
+  left: -50px;
+  margin: 0 auto;
+  z-index: -1000; }
+
+article#reserve:after {
+  content: '';
+  display: block;
+  clear: both; }
